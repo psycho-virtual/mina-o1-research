@@ -1,0 +1,155 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{}%
+\contentsline {section}{\numberline {2}Preliminaries}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Notation}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Finite Fields and Binary Field Operations}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Field Representation}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Field Operations}{5}{}%
+\contentsline {paragraph}{Addition}{5}{}%
+\contentsline {paragraph}{Multiplication}{5}{}%
+\contentsline {paragraph}{Example}{6}{}%
+\contentsline {paragraph}{Field Inversion}{6}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}Choice of Irreducible Polynomial $P(X)$}{6}{}%
+\contentsline {subsection}{\numberline {2.3}STARKs}{6}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Components of a STARK}{7}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Properties of STARKs}{7}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}Arithmetization Process}{7}{}%
+\contentsline {subsection}{\numberline {2.4}Foldable Linear Codes}{8}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Linear Codes Overview}{8}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Random Foldable Codes}{8}{}%
+\contentsline {paragraph}{Parameters}{8}{}%
+\contentsline {paragraph}{Construction}{8}{}%
+\contentsline {paragraph}{Properties}{9}{}%
+\contentsline {subsubsection}{\numberline {2.4.3}Application in Polynomial Commitments}{9}{}%
+\contentsline {paragraph}{Commitment Scheme Overview}{9}{}%
+\contentsline {paragraph}{Security}{10}{}%
+\contentsline {subsubsection}{\numberline {2.4.4}Relation to Existing Coding Theory}{10}{}%
+\contentsline {subsection}{\numberline {2.5}Summary}{10}{}%
+\contentsline {section}{\numberline {3}EndGame Construction}{10}{}%
+\contentsline {subsection}{\numberline {3.1}System Overview}{11}{}%
+\contentsline {subsection}{\numberline {3.2}Field-Agnostic Polynomial Commitments with BaseFold}{11}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Random Foldable Codes}{11}{}%
+\contentsline {paragraph}{Definitions}{11}{}%
+\contentsline {paragraph}{Properties}{12}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Commitment Scheme}{12}{}%
+\contentsline {paragraph}{Commitment Procedure}{12}{}%
+\contentsline {paragraph}{Opening Procedure}{13}{}%
+\contentsline {paragraph}{Verification Procedure}{13}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Security Analysis}{13}{}%
+\contentsline {paragraph}{Binding Property}{13}{}%
+\contentsline {paragraph}{Hiding Property}{13}{}%
+\contentsline {subsection}{\numberline {3.3}Optimized Arithmetization for Binary Fields}{14}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Field Representation}{14}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Trace Representation}{14}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}Constraints for Field Operations}{14}{}%
+\contentsline {paragraph}{Addition Constraints}{14}{}%
+\contentsline {paragraph}{Multiplication Constraints}{14}{}%
+\contentsline {paragraph}{Example}{15}{}%
+\contentsline {paragraph}{Inversion Constraints}{15}{}%
+\contentsline {subsubsection}{\numberline {3.3.4}Constraints for Logical Operations}{16}{}%
+\contentsline {paragraph}{AND Constraints}{16}{}%
+\contentsline {paragraph}{OR Constraints}{16}{}%
+\contentsline {subsection}{\numberline {3.4}Recursive STARK Construction}{16}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}Recursive Composition Strategy}{16}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Construction Details}{16}{}%
+\contentsline {paragraph}{Prover's Algorithm}{16}{}%
+\contentsline {paragraph}{Verifier's Algorithm}{17}{}%
+\contentsline {subsubsection}{\numberline {3.4.3}Verification Circuit in the AIR}{17}{}%
+\contentsline {paragraph}{Challenges in Modeling the Verifier}{17}{}%
+\contentsline {subsection}{\numberline {3.5}Correctness and Security Analysis}{18}{}%
+\contentsline {subsubsection}{\numberline {3.5.1}Completeness}{18}{}%
+\contentsline {subsubsection}{\numberline {3.5.2}Soundness}{18}{}%
+\contentsline {subsubsection}{\numberline {3.5.3}Zero-Knowledge}{18}{}%
+\contentsline {subsection}{\numberline {3.6}Parallel Proof Generation}{18}{}%
+\contentsline {subsubsection}{\numberline {3.6.1}Batch Proving}{18}{}%
+\contentsline {paragraph}{Algorithm}{19}{}%
+\contentsline {paragraph}{Complexity Analysis}{19}{}%
+\contentsline {subsubsection}{\numberline {3.6.2}Parallel Verification}{19}{}%
+\contentsline {paragraph}{Algorithm}{19}{}%
+\contentsline {paragraph}{Complexity Analysis}{20}{}%
+\contentsline {subsection}{\numberline {3.7}Implementation Considerations}{20}{}%
+\contentsline {subsubsection}{\numberline {3.7.1}Efficient Field Arithmetic}{20}{}%
+\contentsline {paragraph}{Optimizations}{20}{}%
+\contentsline {subsubsection}{\numberline {3.7.2}Memory Management}{20}{}%
+\contentsline {subsubsection}{\numberline {3.7.3}Hash Functions over $\mathbb {F}_{2^m}$}{20}{}%
+\contentsline {paragraph}{Algebraic Hash Functions}{20}{}%
+\contentsline {subsection}{\numberline {3.8}Summary}{21}{}%
+\contentsline {section}{\numberline {4}Succinct Blockchain Construction}{21}{}%
+\contentsline {subsection}{\numberline {4.1}System Overview}{21}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Core Components}{22}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Security Properties}{22}{}%
+\contentsline {subsection}{\numberline {4.2}State Transition System}{23}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}State Representation}{23}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Block Structure}{24}{}%
+\contentsline {subsection}{\numberline {4.3}Recursive STARK Construction}{24}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Recursive Proof Goals}{25}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}Verification Circuit}{25}{}%
+\contentsline {subsubsection}{\numberline {4.3.3}Recursive Composition}{26}{}%
+\contentsline {subsection}{\numberline {4.4}Parallel Scan State for Blockchain}{26}{}%
+\contentsline {subsubsection}{\numberline {4.4.1}Block Queue Structure}{26}{}%
+\contentsline {subsubsection}{\numberline {4.4.2}Proof Tree Optimization}{27}{}%
+\contentsline {subsection}{\numberline {4.5}Protocol Details}{27}{}%
+\contentsline {subsubsection}{\numberline {4.5.1}Block Production}{27}{}%
+\contentsline {subsubsection}{\numberline {4.5.2}Block Verification}{28}{}%
+\contentsline {subsubsection}{\numberline {4.5.3}State Updates}{29}{}%
+\contentsline {subsection}{\numberline {4.6}Performance Analysis}{29}{}%
+\contentsline {subsubsection}{\numberline {4.6.1}Space Complexity}{29}{}%
+\contentsline {subsubsection}{\numberline {4.6.2}Time Complexity}{30}{}%
+\contentsline {subsubsection}{\numberline {4.6.3}Concrete Performance Metrics}{30}{}%
+\contentsline {subsection}{\numberline {4.7}Security Arguments}{30}{}%
+\contentsline {subsubsection}{\numberline {4.7.1}Chain Validity}{31}{}%
+\contentsline {subsubsection}{\numberline {4.7.2}Consensus Security}{31}{}%
+\contentsline {subsubsection}{\numberline {4.7.3}Succinctness Security}{31}{}%
+\contentsline {subsection}{\numberline {4.8}Consensus Mechanism: Adaptation of Ouroboros Samasika}{32}{}%
+\contentsline {subsubsection}{\numberline {4.8.1}Key Features of Ouroboros Samasika}{32}{}%
+\contentsline {subsubsection}{\numberline {4.8.2}Adaptation for Succinct Verification}{32}{}%
+\contentsline {subsection}{\numberline {4.9}Conclusion}{33}{}%
+\contentsline {section}{\numberline {5}BaseFold Integration}{34}{}%
+\contentsline {subsection}{\numberline {5.1}Overview}{34}{}%
+\contentsline {subsection}{\numberline {5.2}Random Foldable Codes over Binary Fields}{34}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}Construction of Random Foldable Codes}{34}{}%
+\contentsline {paragraph}{Parameters}{34}{}%
+\contentsline {paragraph}{Properties of the Code}{35}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}Encoding and Decoding Algorithms}{35}{}%
+\contentsline {paragraph}{Encoding Algorithm}{35}{}%
+\contentsline {subsection}{\numberline {5.3}Polynomial Commitment Scheme}{35}{}%
+\contentsline {subsubsection}{\numberline {5.3.1}Commitment Procedure}{35}{}%
+\contentsline {subsubsection}{\numberline {5.3.2}Opening Procedure}{35}{}%
+\contentsline {subsection}{\numberline {5.4}Optimized Encoding}{35}{}%
+\contentsline {subsubsection}{\numberline {5.4.1}Field Operations Optimization}{35}{}%
+\contentsline {subsection}{\numberline {5.5}Parallel Scan State}{36}{}%
+\contentsline {subsubsection}{\numberline {5.5.1}Parallel Proof Generation Architecture}{36}{}%
+\contentsline {subsection}{\numberline {5.6}Integration with Recursive STARKs}{36}{}%
+\contentsline {subsubsection}{\numberline {5.6.1}Commitment Phase in STARK}{36}{}%
+\contentsline {subsubsection}{\numberline {5.6.2}Proof Generation}{37}{}%
+\contentsline {subsection}{\numberline {5.7}Performance Analysis}{37}{}%
+\contentsline {subsubsection}{\numberline {5.7.1}Complexity Analysis}{37}{}%
+\contentsline {subsubsection}{\numberline {5.7.2}Parallelization Benefits}{37}{}%
+\contentsline {subsection}{\numberline {5.8}Optimization Techniques}{37}{}%
+\contentsline {subsubsection}{\numberline {5.8.1}Binary Field Arithmetic}{37}{}%
+\contentsline {paragraph}{Multiplication Optimizations}{37}{}%
+\contentsline {paragraph}{Reduction Optimizations}{37}{}%
+\contentsline {subsection}{\numberline {5.9}Security Analysis}{38}{}%
+\contentsline {subsubsection}{\numberline {5.9.1}Security Properties}{38}{}%
+\contentsline {subsection}{\numberline {5.10}Summary}{38}{}%
+\contentsline {section}{\numberline {6}Security Analysis}{38}{}%
+\contentsline {subsection}{\numberline {6.1}Security Model}{38}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Participants}{38}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Security Properties}{39}{}%
+\contentsline {subsection}{\numberline {6.2}Assumptions}{39}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Cryptographic Assumptions}{39}{}%
+\contentsline {subsection}{\numberline {6.3}Completeness}{39}{}%
+\contentsline {subsection}{\numberline {6.4}Knowledge Soundness}{40}{}%
+\contentsline {subsection}{\numberline {6.5}Zero-Knowledge}{41}{}%
+\contentsline {subsection}{\numberline {6.6}Post-Quantum Security}{42}{}%
+\contentsline {subsection}{\numberline {6.7}Security Analysis of Binary Field Operations}{43}{}%
+\contentsline {subsection}{\numberline {6.8}Analysis of Attack Vectors}{44}{}%
+\contentsline {subsubsection}{\numberline {6.8.1}Commitment Attacks}{44}{}%
+\contentsline {subsubsection}{\numberline {6.8.2}Protocol Attacks}{44}{}%
+\contentsline {subsubsection}{\numberline {6.8.3}Implementation Attacks}{45}{}%
+\contentsline {subsection}{\numberline {6.9}Summary}{45}{}%
+\contentsline {section}{\numberline {7}Conclusion}{45}{}%
+\contentsline {subsection}{\numberline {7.1}Contributions}{45}{}%
+\contentsline {subsection}{\numberline {7.2}Theoretical Implications}{46}{}%
+\contentsline {subsection}{\numberline {7.3}Practical Impact}{47}{}%
+\contentsline {subsection}{\numberline {7.4}Future Work}{47}{}%
+\contentsline {subsection}{\numberline {7.5}Closing Remarks}{48}{}%
